@@ -1,0 +1,71 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #8fd3f4, #a8e6cf); /* Cielo azul y verde suave */
+    background-attachment: fixed;
+    background-size: cover;
+    color: #2c3e50;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco semitransparente */
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.quote-box {
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #34495e;
+    border-left: 4px solid #27ae60;
+    background: #ecf0f1;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #27ae60; /* Verde natural */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+    background-color: #2ecc71; /* Verde más claro */
+    transform: translateY(-3px); /* Efecto de flotación */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.button:active {
+    transform: translateY(2px); /* Botón hundido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
